@@ -57,9 +57,21 @@ https://sololearn.com
 ## diagram
 
 ```mermaid
-flowchart TD
-    A[Start] --> B[Stop];
-    B[TEST] --> C[SSS];
+---
+title: Polymorphism example
+---
+classDiagram
+    Animal --|> Dog
+    Animal --|> Cat
+    Animal: +makeSound()
+    class Dog{
+        +makeSound()
+    }
     
+    class Cat{
+        +makeSound()
+    }
+    
+
 ```
 
