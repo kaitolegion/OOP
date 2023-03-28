@@ -57,7 +57,9 @@ https://sololearn.com
 ## diagram
 
 ```mermaid
-Flowchart LR
-     A[Start]
+flowchart TD
+    A[Start] --> B[Stop];
+    B[TEST] --> C[SSS];
+    
 ```
 
